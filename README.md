@@ -36,28 +36,28 @@ This notebook performs Extract, Transform, and Load operations for a sample data
 
 **Databricks Result**
 
-Data ETL operations:
+`Data ETL operations:
 Use Spark SQL to transform data and configure Auto Loader to ingest JSON data to a Delta table
 
 ![DATA ETL](<img/data_etl.png>)
 
-Loaded Dataset:
+`Loaded Dataset:
 
-![DATA LOADED](img/<data_loaded.png>)
+![DATA LOADED](<img/<data_loaded.png>)
 
-Delta Lake Validation Check:
+`Delta Lake Validation Check:
 
 Quality Check: Check for null values in the Delta table
 
 ![Validation Check](<img/validation_check.png>)
 
-Data Visualization:
+`Data Visualization:
 
 Visualize the first 5000 records of data in every 10-second time interval to show the time series data trend.
 
 ![Data Visualization](<img/data_visualize.png>)
 
-Workflow and Automation Setup:
+`Workflow and Automation Setup:
 
 Since all the ETL and visualization operations are performed in one notebook, only one event is in the workflow.
 Schedule the workflow in a daily manner.
