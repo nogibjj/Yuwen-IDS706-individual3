@@ -62,8 +62,8 @@ Visualize the first 5000 records of data in every 10-second time interval to sho
 Since all the ETL and visualization operations are performed in one notebook, only one event is in the workflow.
 Schedule the workflow in a daily manner.
 
-![Workflow](<img/workflow.png>)
+![Workflow](<img/single_work.png>)
 
-
+![scheduled](<img/workflow_scheduled.png>)
 
 
