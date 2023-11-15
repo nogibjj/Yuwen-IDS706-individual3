@@ -12,7 +12,7 @@ This individual project aims to create an ETL operations pipeline on a dataset i
 
 Project Structure:
 
-![Alt text](<str.jpeg>)
+![structure](<img/str.jpeg>)
 
 
 ---
@@ -39,23 +39,23 @@ This notebook performs Extract, Transform, and Load operations for a sample data
 Data ETL operations:
 Use Spark SQL to transform data and configure Auto Loader to ingest JSON data to a Delta table
 
-![DATA ETL](<data_etl.png>)
+![DATA ETL](<img/data_etl.png>)
 
 Loaded Dataset:
 
-![DATA LOADED](<data_loaded.png>)
+![DATA LOADED](img/<data_loaded.png>)
 
 Delta Lake Validation Check:
 
 Quality Check: Check for null values in the Delta table
 
-![Validation Check](<validation_check.png>)
+![Validation Check](<img/validation_check.png>)
 
 Data Visualization:
 
 Visualize the first 5000 records of data in every 10-second time interval to show the time series data trend.
 
-![Data Visualization](<data_visualize.png>)
+![Data Visualization](<img/data_visualize.png>)
 
 Workflow and Automation Setup:
 
